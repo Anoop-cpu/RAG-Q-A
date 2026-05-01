@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "document": "Indian_constitution.pdf",
+    "page_count": 402,
+    "word_count": 141003,
+    "chunk_count": 1025,
+    "llm_enabled": false
+  },
+  "index_build": {
+    "n_chunks": 1025,
+    "dense_build_s": 118.57,
+    "hybrid_build_s": 100.41,
+    "overhead_s": -18.16,
+    "overhead_pct": -15.3
+  },
+  "retrieval_overlap": {
+    "summary": {
+      "exact_term": {
+        "avg_shared": 4.0,
+        "avg_hybrid_only": 0.0,
+        "avg_dense_only": 0.0,
+        "avg_overlap_pct": 100.0,
+        "avg_dense_ms": 12.6,
+        "avg_hybrid_ms": 13.6
+      },
+      "semantic": {
+        "avg_shared": 4.0,
+        "avg_hybrid_only": 0.0,
+        "avg_dense_only": 0.0,
+        "avg_overlap_pct": 100.0,
+        "avg_dense_ms": 2.9,
+        "avg_hybrid_ms": 3.7
+      },
+      "mixed": {
+        "avg_shared": 4.0,
+        "avg_hybrid_only": 0.0,
+        "avg_dense_only": 0.0,
+        "avg_overlap_pct": 100.0,
+        "avg_dense_ms": 3.0,
+        "avg_hybrid_ms": 3.9
+      }
+    },
+    "per_question": [
+      {
+        "question": "What does Article 19 say?",
+        "query_type": "exact_term",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 90.0,
+        "latency_hybrid_ms": 93.0
+      },
+      {
+        "question": "What is Article 32?",
+        "query_type": "exact_term",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.7,
+        "latency_hybrid_ms": 3.3
+      },
+      {
+        "question": "What does Article 21 protect?",
+        "query_type": "exact_term",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.4,
+        "latency_hybrid_ms": 3.0
+      },
+      {
+        "question": "What is stated in Article 14?",
+        "query_type": "exact_term",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.9,
+        "latency_hybrid_ms": 3.7
+      },
+      {
+        "question": "What does Article 356 allow?",
+        "query_type": "exact_term",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.5,
+        "latency_hybrid_ms": 3.4
+      },
+      {
+        "question": "What is Part III of the Constitution about?",
+        "query_type": "exact_term",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 3.3,
+        "latency_hybrid_ms": 4.3
+      },
+      {
+        "question": "What does Schedule VII contain?",
+        "query_type": "exact_term",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.7,
+        "latency_hybrid_ms": 3.5
+      },
+      {
+        "question": "What are the provisions of Article 368?",
+        "query_type": "exact_term",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 3.2,
+        "latency_hybrid_ms": 4.1
+      },
+      {
+        "question": "What does Article 51A describe?",
+        "query_type": "exact_term",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 3.5,
+        "latency_hybrid_ms": 4.1
+      },
+      {
+        "question": "What freedoms do citizens have?",
+        "query_type": "semantic",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.7,
+        "latency_hybrid_ms": 3.3
+      },
+      {
+        "question": "How are legal disputes resolved?",
+        "query_type": "semantic",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.5,
+        "latency_hybrid_ms": 3.1
+      },
+      {
+        "question": "What protections exist for individual rights?",
+        "query_type": "semantic",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.8,
+        "latency_hybrid_ms": 3.5
+      },
+      {
+        "question": "How does the government protect citizens from arbitrary arrest?",
+        "query_type": "semantic",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 3.3,
+        "latency_hybrid_ms": 4.3
+      },
+      {
+        "question": "What rights do accused persons have in a trial?",
+        "query_type": "semantic",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.7,
+        "latency_hybrid_ms": 3.7
+      },
+      {
+        "question": "How does the Constitution ensure press freedom?",
+        "query_type": "semantic",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.9,
+        "latency_hybrid_ms": 3.7
+      },
+      {
+        "question": "What are the duties of citizens toward the nation?",
+        "query_type": "semantic",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.8,
+        "latency_hybrid_ms": 3.7
+      },
+      {
+        "question": "How does the Constitution define the relationship between states and the centre?",
+        "query_type": "semantic",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 3.6,
+        "latency_hybrid_ms": 4.7
+      },
+      {
+        "question": "What safeguards exist against discrimination?",
+        "query_type": "semantic",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.7,
+        "latency_hybrid_ms": 3.2
+      },
+      {
+        "question": "What powers does the Supreme Court have?",
+        "query_type": "mixed",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.7,
+        "latency_hybrid_ms": 3.5
+      },
+      {
+        "question": "How does the government ensure equality?",
+        "query_type": "mixed",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.5,
+        "latency_hybrid_ms": 3.2
+      },
+      {
+        "question": "What constitutional protections exist for minorities?",
+        "query_type": "mixed",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.4,
+        "latency_hybrid_ms": 3.1
+      },
+      {
+        "question": "What does the Constitution say about freedom of religion?",
+        "query_type": "mixed",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.8,
+        "latency_hybrid_ms": 3.7
+      },
+      {
+        "question": "How is the President of India elected and what are their powers?",
+        "query_type": "mixed",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 3.3,
+        "latency_hybrid_ms": 4.5
+      },
+      {
+        "question": "What does the Constitution say about the right to education?",
+        "query_type": "mixed",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 2.9,
+        "latency_hybrid_ms": 3.9
+      },
+      {
+        "question": "How does Article 300A protect property rights?",
+        "query_type": "mixed",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 3.7,
+        "latency_hybrid_ms": 4.6
+      },
+      {
+        "question": "What are the emergency powers granted by Part XVIII?",
+        "query_type": "mixed",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 3.4,
+        "latency_hybrid_ms": 4.6
+      },
+      {
+        "question": "How does the Constitution define the role of the Prime Minister?",
+        "query_type": "mixed",
+        "shared": 4,
+        "hybrid_only": 0,
+        "dense_only": 0,
+        "overlap_pct": 100.0,
+        "latency_dense_ms": 3.2,
+        "latency_hybrid_ms": 4.4
+      }
+    ]
+  },
+  "page_lookup": {
+    "accuracy_pct": 100.0,
+    "per_page": [
+      {
+        "page": 1,
+        "correct": true,
+        "latency_ms": 0.3,
+        "preview": "--- Page 1 ---\n\u00a3\u00c9\u00c9\u00aei\u00c9 B\u00c9E\u00c9 \u00ba\u00c9\u00c6\u00c9\u00ca\u00b4\u00c9v\u00c9\u00c9x\u00c9\n[1\n, 2024\n]\nTHE CONSTITUTION OF INDIA\n[As on 1st May, 2024]\n2024\nGOVERNMENT OF INDIA\nMINISTRY OF LAW AND JUSTI"
+      },
+      {
+        "page": 5,
+        "correct": true,
+        "latency_ms": 0.1,
+        "preview": "--- Page 5 ---\nContents\nARTICLES\n(ii)\nPART III\nFUNDAMENTAL RIGHTS\nGeneral\n12.\nDefinition.\n13.\nLaws inconsistent with or in derogation of the fundament"
+      },
+      {
+        "page": 10,
+        "correct": true,
+        "latency_ms": 0.1,
+        "preview": "--- Page 10 ---\nContents\nARTICLES\n(vii)\n96.\nThe Speaker or the Deputy Speaker not to preside while a\nresolution for his removal from office is under c"
+      },
+      {
+        "page": 20,
+        "correct": true,
+        "latency_ms": 0.1,
+        "preview": "--- Page 20 ---\nContents\nARTICLES\n(xvii)\nPART XI\nRELATIONS BETWEEN THE UNION AND THE\nSTATES\nCHAPTER I.\nLEGISLATIVE RELATIONS\nDistribution of Legislati"
+      },
+      {
+        "page": 50,
+        "correct": true,
+        "latency_ms": 0.1,
+        "preview": "--- Page 50 ---\nTHE CONSTITUTION OF INDIA\n(Part III.\u2014Fundamental Rights)\n19\nRight to Constitutional Remedies\n32. Remedies for enforcement of rights co"
+      },
+      {
+        "page": 75,
+        "correct": true,
+        "latency_ms": 0.2,
+        "preview": "--- Page 75 ---\nTHE CONSTITUTION OF INDIA\n(Part V.\u2014The Union)\n44\nConduct of Business\n99. Oath or affirmation by members.\u2014Every member of either House\n"
+      },
+      {
+        "page": 100,
+        "correct": true,
+        "latency_ms": 0.2,
+        "preview": "--- Page 100 ---\nTHE CONSTITUTION OF INDIA\n(Part V.\u2014The Union)\n69\n149. Duties and powers of the Comptroller and Auditor-General.\u2014\nThe Comptroller and "
+      },
+      {
+        "page": 150,
+        "correct": true,
+        "latency_ms": 0.2,
+        "preview": "--- Page 150 ---\n119\n1[PART IX\nTHE PANCHAYATS\n243. Definitions.\u2014In this Part, unless the context otherwise requires,\u2014\n(a) \u201cdistrict\u201d means a district "
+      },
+      {
+        "page": 200,
+        "correct": true,
+        "latency_ms": 0.3,
+        "preview": "--- Page 200 ---\nTHE CONSTITUTION OF INDIA\n(Part XII.\u2014Finance, Property, Contracts and Suits)\n169\nProvided that any property which at the date when it"
+      },
+      {
+        "page": 300,
+        "correct": true,
+        "latency_ms": 0.3,
+        "preview": "--- Page 300 ---\n269\nTHIRD SCHEDULE\n[Articles 75(4), 99, 124(6), 148(2), 164(3), 188 and 219]\nForms of Oaths or Affirmations\nI\nForm of oath of office "
+      }
+    ]
+  },
+  "latency": [
+    {
+      "strategy": "Page Lookup",
+      "avg_ms": 0.0
+    },
+    {
+      "strategy": "Dense Only (FAISS)",
+      "avg_ms": 2.5
+    },
+    {
+      "strategy": "Hybrid (FAISS + BM25)",
+      "avg_ms": 3.2
+    }
+  ],
+  "guardrail": {
+    "summary": {},
+    "per_question": []
+  }
+}
